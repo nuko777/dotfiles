@@ -1,0 +1,9 @@
+[core]
+	editor = \"D:\\Programs\\VSCode\\bin\\code\" --wait
+[user]
+	email = 1269207838@qq.com
+	name = nuko777
+[alias]
+	glog = log --graph --oneline
+[http "https://github.com"]
+	proxy = http://127.0.0.1:10809

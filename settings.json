@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "prettier.tabWidth": 4
+}
