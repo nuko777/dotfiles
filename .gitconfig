@@ -4,6 +4,6 @@
 	email = 1269207838@qq.com
 	name = nuko777
 [alias]
-	glog = log --graph --oneline
+	ls = log --graph --date-order --pretty='format:%Cblue%h%C(auto)%d %Cred@%an %Cgreen%cr%n%s%n'
 [http "https://github.com"]
 	proxy = http://127.0.0.1:10809
