@@ -1,11 +1,16 @@
 {
+    "chat.disableAIFeatures": true,
+    "diffEditor.renderSideBySide": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "prettier.tabWidth": 4,
+    "extensions.ignoreRecommendations": true,
     "telemetry.telemetryLevel": "off",
+    "update.mode": "none",
     "workbench.colorTheme": "Default Dark+",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "prettier.tabWidth": 4
 }

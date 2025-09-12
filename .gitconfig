@@ -1,9 +1,63 @@
+# clearly makes git better
+
+[column]
+        ui = auto
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
+[init]
+        defaultBranch = main
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = true
+[push]
+        default = simple
+        autoSetupRemote = true
+        followTags = true
+[fetch]
+        prune = true
+        pruneTags = true
+        all = true
+
+# why the hell not?
+
+[help]
+        autocorrect = prompt
+[commit]
+        verbose = true
+[rerere]
+        enabled = true
+        autoupdate = true
 [core]
-	editor = \"D:\\Programs\\VSCode\\bin\\code\" --wait
+        excludesfile = ~/.gitignore
+[rebase]
+        autoSquash = true
+        autoStash = true
+        updateRefs = true
+
+# a matter of taste (uncomment if you dare)
+
+[core]
+        # fsmonitor = true
+        # untrackedCache = true
+[merge]
+        # (just 'diff3' if git version < 2.3)
+        # conflictstyle = zdiff3
+[pull]
+        # rebase = true
+
+# personal
+
+[core]
+		editor = \"D:\\Applications\\VS Code\\bin\\code\" --wait
 [user]
-	email = 1269207838@qq.com
-	name = nuko777
+		email = 1269207838@qq.com
+		name = nuko777
 [alias]
-	ls = log --graph --date-order --pretty='format:%Cblue%h %Cred@%an %Cgreen%cr%C(auto)%d%n%s%n'
+		ls = log --graph --pretty='format:%Cblue%h %Cred@%an %Cgreen%cr%C(auto)%d%n%s%n'
+		pushf = push --force-with-lease
 [http "https://github.com"]
-	proxy = http://127.0.0.1:10809
+		proxy = http://127.0.0.1:10809
