@@ -8,6 +8,7 @@
     "editor.minimap.showSlider": "always",
     "extensions.ignoreRecommendations": true,
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.initialHint": false,
     "update.mode": "none",
     "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
