@@ -60,4 +60,4 @@
 		ls = log --graph --pretty='format:%Cblue%h %Cred@%an %Cgreen%cr%C(auto)%d%n%s%n'
 		pushf = push --force-with-lease
 [http "https://github.com"]
-		proxy = http://127.0.0.1:10809
+		proxy = socks5h://127.0.0.1:12334

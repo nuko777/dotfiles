@@ -1,0 +1,2 @@
+Host *
+  ProxyCommand "D:\Applications\Git\mingw64\bin\connect.exe" -S 127.0.0.1:12334 %h %p
